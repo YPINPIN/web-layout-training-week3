@@ -589,6 +589,10 @@ img {
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 @media screen and (max-width: 576px) {
   .d-sm-none {
     display: none;
@@ -800,7 +804,7 @@ img {
   color: #57a203;
 }
 
-.text-neutral-0 {
+.text-neutral-white {
   color: #ffffff;
 }
 
@@ -1302,6 +1306,15 @@ img {
 }
 
 /* layout */
+.nav-logo {
+  background-image: url(../images/logo.svg);
+  width: 129px;
+  height: 46px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .nav-sm-link {
   background-color: #f5fee7;
 }
@@ -1427,7 +1440,7 @@ img {
 .story-header {
   padding-top: 151px;
   padding-bottom: 151px;
-  background-image: url("https://ypinpin.github.io/web-layout-training-week3/images/story/hero.png");
+  background-image: url("../images/story/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1436,7 +1449,7 @@ img {
   .story-header {
     padding-top: 87px;
     padding-bottom: 87px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://ypinpin.github.io/web-layout-training-week3/images/story/hero-sm.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/story/hero-sm.png");
   }
 }
 
@@ -1496,13 +1509,13 @@ img {
   padding-bottom: 12px;
   border-bottom: 1px solid #dee2e6;
 }
-.info-item p {
-  color: #6c757d;
-}
-.info-item p:first-of-type {
+.info-item p.info-item-title {
   color: #212529;
   font-weight: 500;
   margin-bottom: 4px;
+}
+.info-item p {
+  color: #6c757d;
 }
 
 @media screen and (max-width: 576px) {

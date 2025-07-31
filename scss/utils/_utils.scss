@@ -388,6 +388,9 @@
 .d-none {
   display: none;
 }
+.d-block {
+  display: block;
+}
 
 @include mobile() {
   .d-sm-none {

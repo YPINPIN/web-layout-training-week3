@@ -21,13 +21,15 @@
   padding-top: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid $neutral-300;
+
+  p.info-item-title {
+    color: $neutral-900;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
   p {
     color: $neutral-600;
-    &:first-of-type {
-      color: $neutral-900;
-      font-weight: 500;
-      margin-bottom: 4px;
-    }
   }
 }
 
